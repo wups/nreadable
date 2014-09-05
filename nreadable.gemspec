@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'nreadable'
-  s.version     = '0.2.0'
-  s.date        = '2014-09-01'
+  s.version     = '0.2.1'
+  s.date        = '2014-09-05'
   s.summary     = "Create various readable representations of numeric values."
   s.description = <<-EOF
 Extends the Numeric Class with the ability to create better readable

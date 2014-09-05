@@ -62,7 +62,7 @@ class Numeric
   # An exponential notation is used if the number is >= 1000 or < 0.01.
   # @param precision [Integer] the maximum precision. Only applies if the
   #   exponential notation is used. Must be >= 0.
-  # @return [String] the formated number.
+  # @return [String] the formatted number.
   # @example
   #   12.55.scientific #=> "12.55"
   #   10000.scientific #=> "1e+04"
@@ -83,7 +83,7 @@ class Numeric
 
   # Creates a representation of the number with a SI prefix attached.
   # @param precision [Integer] maximum precision. Must be >= 0.
-  # @return [String] the formated number.
+  # @return [String] the formatted number.
   # @example
   #   0.0000012.si_prefixed #=> "1.2µ"
   #   1000.si_prefixed #=> "1k"
@@ -130,7 +130,7 @@ class Numeric
   # @param precision [Integer] maximum precision. Must be >= 0.
   # @return [String] the formatted number.
   # @example
-  #   2000.named #=> "2 tousand"
+  #   2000.named #=> "2 thousand"
   #   2_310_000.named #=> "2.3 million"
 
   def named( precision = 1 )
